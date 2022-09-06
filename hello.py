@@ -4,3 +4,4 @@
 print("hello")  # kiírja, hogy hello
 print("python")
 print("git")
+print("Visual Studio Code")
