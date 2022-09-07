@@ -71,6 +71,15 @@ def get_type_structured(n):
 # eldönti, hogy páros-e!
 # True-t adjon vissza, ha páros, False értéket adjon vissza,
 # ha páratlan
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    else:
+        return False
+
+# Egyszerűbben így írható:
+def is_even_simple(n):
+    return n % 2 == 0
 
 print(signum(30))
 
@@ -92,3 +101,9 @@ print(max(10, 4))
 
 print(get_type(5))
 print(get_type(6))
+
+
+if is_even(10):
+    print("Ez egy szép páros szám")
+else:
+    print("Ez egy páratlan szám")
